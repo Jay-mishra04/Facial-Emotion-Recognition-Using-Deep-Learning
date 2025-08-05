@@ -28,18 +28,18 @@ The ultimate goal of DeepFER is to enable practical applications in a wide range
 - Language: Python
 
 ### File Structure
-Facial-Emotion-Recognition-Using-Deep-Learning/
-├── original_images/                                                # Raw images for model training
-├── preprocessed_images/                                            # Processed images after data augmentation
-├── app.py                                                          # Main Streamlit application script
-├── best_emotion_model.keras                                        # The final, best-performing model
-├── cnn_custom_first_model.keras                                    # Example of a custom CNN model
-├── final_transfer_learning_emotion_recognition_model.keras
-├── Transfer_learning_efficientnet_model.keras                      # Model trained with transfer learning
-├── model_testing.ipynb                                             # Jupyter Notebook for model development
-├── requirements.txt                                                # List of all Python dependencies
-├── README.md                                                       # This file
-└── DeepFER: Facial Emotion Recognition Using Deep Learning.ipynb   # Main jupterfile for experimentation and model building
+
+- original_images/: Contains the raw, unprocessed images used for training the models.
+- preprocessed_images/: Houses the images after they have been processed and augmented, ready for model training.
+- app.py: The main script that runs the Streamlit web application for real-time emotion detection.
+- best_emotion_model.keras: The final, best-performing model saved in Keras format.
+- cnn_custom_first_model.keras: An example of a custom-built Convolutional Neural Network model.
+- final_transfer_learning_emotion_recognition_model.keras: A final model trained using the transfer learning approach.
+- Transfer_learning_efficientnet_model.keras: A model specifically trained using the EfficientNet architecture via transfer learning.
+- model_testing.ipynb: A Jupyter Notebook dedicated to testing and evaluating the different models.
+- DeepFER: Facial Emotion Recognition Using Deep Learning.ipynb: The primary Jupyter Notebook for experimentation, data preprocessing, and building the deep learning models from scratch.
+- requirements.txt: A comprehensive list of all the Python libraries and their versions required to run the project.
+- README.md: The main README file for the project.
 
 ### Contribution
 Individual Contributor: Mritunjay Mishra
